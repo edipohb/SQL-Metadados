@@ -1,0 +1,3 @@
+select nr_atendimento, nr_prescricao, dt_atualizacao, dt_horario_acao, nm_usuario
+from PRESCR_MAT_ALTERACAO 
+where dt_atualizacao > '01/01/2022'
